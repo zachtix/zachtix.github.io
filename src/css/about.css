@@ -1,0 +1,10 @@
+.about .container .title {
+  position: relative; }
+  .about .container .title h2::after {
+    position: absolute;
+    width: 5rem;
+    height: 0.3rem;
+    background: #149ddd;
+    left: 0;
+    bottom: 3rem;
+    content: ""; }

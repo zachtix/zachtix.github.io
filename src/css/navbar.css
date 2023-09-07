@@ -1,0 +1,12 @@
+header {
+  position: fixed;
+  background-color: #040b14;
+  width: 300px;
+  height: 100vh; }
+  header .profile img {
+    width: 120px;
+    border: 8px solid #2c2f3f; }
+  header nav ul li a.active {
+    color: #fff; }
+    header nav ul li a.active i {
+      color: #0d6efd; }
