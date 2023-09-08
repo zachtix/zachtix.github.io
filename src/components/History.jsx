@@ -2,7 +2,7 @@ import '../css/history.css'
 
 function History() {
   return (
-    <section className="history" id="history">
+    <section className="history mt-5" id="history">
       <div className="container">
         <div className="title">
           <h2>History</h2>
