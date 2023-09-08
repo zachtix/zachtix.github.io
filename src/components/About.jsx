@@ -19,33 +19,33 @@ function About () {
               <div className="w-50">
                 <ul className='list-unstyled'>
                   <li>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <strong>Birthday :</strong>
-                    <span>2 Oct 1997</span>
+                    <i className="fa-solid fa-chevron-right"></i>
+                    <strong className='ms-2'>Birthday :</strong>
+                    <span className='ms-2'>2 Oct 1997</span>
                   </li>
                   <li>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <strong>Age :</strong>
-                    <span>25</span>
+                    <i className="fa-solid fa-chevron-right"></i>
+                    <strong className='ms-2'>Age :</strong>
+                    <span className='ms-2'>25</span>
                   </li>
                   <li>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <strong>Location :</strong>
-                    <span>Bangkae, Bangkok</span>
+                    <i className="fa-solid fa-chevron-right"></i>
+                    <strong className='ms-2'>Location :</strong>
+                    <span className='ms-2'>Bangkae, Bangkok</span>
                   </li>
                 </ul>
               </div>
               <div className="w-50">
                 <ul className='list-unstyled'>
                   <li>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <strong>Phone :</strong>
-                    <span>(+66)90-041-0409</span>
+                    <i className="fa-solid fa-chevron-right"></i>
+                    <strong className='ms-2'>Phone :</strong>
+                    <span className='ms-2'>(+66)90-041-0409</span>
                   </li>
                   <li>
-                    <i class="fa-solid fa-chevron-right"></i>
-                    <strong>E-mail :</strong>
-                    <span>bleach_uekiza99@hotmail.com</span>
+                    <i className="fa-solid fa-chevron-right"></i>
+                    <strong className='ms-2'>E-mail :</strong>
+                    <span className='ms-2'>bleach_uekiza99@hotmail.com</span>
                   </li>
                 </ul>
               </div>

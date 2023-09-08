@@ -1,0 +1,7 @@
+.app__Grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  max-height: 50rem;
+  overflow-y: scroll;
+  padding: 0.5rem; }

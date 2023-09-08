@@ -29,14 +29,14 @@ function Navbar() {
           </li>
           <li className='nav-item mt-3'>
             <a href="" className='nav-link link-secondary'>
-            <i class="fa-solid fa-file me-2"></i>
+            <i className="fa-solid fa-file me-2"></i>
               <span>History</span>
             </a>
           </li>
           <li className='nav-item mt-3'>
             <a href="" className='nav-link link-secondary'>
               {/* <i className="fa-solid fa-folder me-2"></i> */}
-              <i class="fa-solid fa-briefcase me-2"></i>
+              <i className="fa-solid fa-briefcase me-2"></i>
               <span>Portfolio</span>
             </a>
           </li>
