@@ -47,7 +47,6 @@ const portfolios = [
     tag: 'bot',
     thumbnailUrl: '', 
     images: [
-      ''
     ]
   },
 ];

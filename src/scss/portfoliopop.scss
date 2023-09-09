@@ -29,17 +29,31 @@
       cursor: pointer;
     }
     .portfolio__images {
-      img {
-        object-fit: cover;
-        width: 10rem;
-        height: 6rem;
-        // aspect-ratio: 16/9;
-        border: 1px solid rgba(0, 0, 0, 0.3);
-        // height: 9rem;
-        opacity: 0.8;
-        box-shadow: 2px 2px 5px #000;
-        &:hover {
-          opacity: 1;
+      // border: 1px solid red;
+      .big__images {
+        // border: 1px solid red;
+        img {
+          object-fit: cover;
+          height: 400px;
+        }
+      }
+      .slider {
+        overflow-x: scroll;
+        // margin-right: 5rem;
+        height: 7.5rem;
+        img {
+          object-fit: cover;
+          width: 10rem;
+          height: 6rem;
+          // aspect-ratio: 16/9;
+          border: 1px solid rgba(0, 0, 0, 0.3);
+          // height: 9rem;
+          // opacity: 0.8;
+          box-shadow: 2px 2px 5px #000;
+          &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+          }
         }
       }
     }

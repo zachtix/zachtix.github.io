@@ -24,12 +24,18 @@
     .portfolio__pop .portfolio__content i {
       font-size: 2rem;
       cursor: pointer; }
-    .portfolio__pop .portfolio__content .portfolio__images img {
+    .portfolio__pop .portfolio__content .portfolio__images .big__images img {
       object-fit: cover;
-      width: 10rem;
-      height: 6rem;
-      border: 1px solid rgba(0, 0, 0, 0.3);
-      opacity: 0.8;
-      box-shadow: 2px 2px 5px #000; }
-      .portfolio__pop .portfolio__content .portfolio__images img:hover {
-        opacity: 1; }
+      height: 400px; }
+    .portfolio__pop .portfolio__content .portfolio__images .slider {
+      overflow-x: scroll;
+      height: 7.5rem; }
+      .portfolio__pop .portfolio__content .portfolio__images .slider img {
+        object-fit: cover;
+        width: 10rem;
+        height: 6rem;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 2px 5px #000; }
+        .portfolio__pop .portfolio__content .portfolio__images .slider img:hover {
+          opacity: 0.8;
+          cursor: pointer; }
