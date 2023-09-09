@@ -5,8 +5,14 @@ header {
   height: 100vh; }
   header .profile img {
     width: 120px;
+    height: 120px;
+    object-fit: cover;
     border: 8px solid #2c2f3f; }
   header nav ul li a.active {
     color: #fff; }
     header nav ul li a.active i {
       color: #0d6efd; }
+
+@media (max-width: 480px) {
+  header {
+    display: none; } }

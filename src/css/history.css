@@ -1,0 +1,10 @@
+.history .container .title {
+  position: relative; }
+  .history .container .title h2::after {
+    position: absolute;
+    width: 5rem;
+    height: 0.3rem;
+    background: #149ddd;
+    left: 0;
+    top: 2.5rem;
+    content: ""; }

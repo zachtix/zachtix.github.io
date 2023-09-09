@@ -37,15 +37,15 @@ function Portfolio() {
   }
 
   return (
-    <section className="portfolio mt-5" id="portfolio">
+    <section className="portfolio mt-5 mb-5" id="portfolio">
       <div className="container">
         <div className="title">
           <h2>Portfolio</h2>
         </div>
         <div className="selector container text-center">
-          <button className="btn btn-primary me-2" value='' onClick={handleClickEvent}>all</button>
-          <button className="btn btn-primary me-2" value='web' onClick={handleClickEvent}>web</button>
-          <button className="btn btn-primary" value='game' onClick={handleClickEvent}>game</button>
+          <button className="btn btn-secondary me-2" value='' onClick={handleClickEvent}>All</button>
+          <button className="btn btn-secondary me-2" value='web' onClick={handleClickEvent}>Web</button>
+          <button className="btn btn-secondary" value='game' onClick={handleClickEvent}>Game</button>
         </div>
         <div className="app__Grid mt-5">{portfolioItems}</div>
       </div>

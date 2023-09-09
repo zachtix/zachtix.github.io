@@ -6,3 +6,7 @@
 main {
   background-color: white;
   margin-left: 300px; }
+
+@media (max-width: 480px) {
+  main {
+    margin-left: 0; } }

@@ -1,4 +1,5 @@
 import '../css/about.css'
+import imgPerson from '../assets/images/imgPerson.jpg'
 
 function About () {
   return (
@@ -10,11 +11,11 @@ function About () {
         </div>
         <div className="detail d-flex">
           <div className="w-25 me-3">
-            <img src="https://images.unsplash.com/photo-1533557188897-ef2bc7257ba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHBlcnNvbiUyMFNxdWFyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Images Avatar" className="w-100"/>
+            <img src={imgPerson} alt="Images Avatar" className="w-100 rounded"/>
           </div>
           <div className="container">
             <h3>Atthawut Smith</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse aliquam ad optio quidem eveniet consequatur, tempore cupiditate soluta et.</p>
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse aliquam ad optio quidem eveniet consequatur, tempore cupiditate soluta et.</p> */}
             <div className="d-flex">
               <div className="w-50">
                 <ul className='list-unstyled'>

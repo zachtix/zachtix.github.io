@@ -1,11 +1,12 @@
 import '../css/navbar.css'
+import imgPerson from '../assets/images/imgPerson.jpg'
 
 function Navbar() {
   return(
     <header id="header">
       <div className="d-flex flex-column">
         <div className="profile mt-5 mx-auto">
-          <img src="https://images.unsplash.com/photo-1533557188897-ef2bc7257ba3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHBlcnNvbiUyMFNxdWFyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" className="img-fluid rounded-circle" alt="Images Avatar" />
+          <img src={imgPerson} className="img-fluid img__Person rounded-circle" alt="Images Person" />
         </div>
         <h1 className='text-light mt-3 mx-auto fs-5'>
           <a href="#" className='link-light text-decoration-none'>

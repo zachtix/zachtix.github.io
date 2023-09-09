@@ -6,8 +6,8 @@ function Portfolioitem(props) {
 
   const [ thumImg, setThumImg ] = useState(
     () => {
-      if (portfolio.thumbnailUrl == 0) {
-        return "https://placehold.co/600x400?text=No+Images"
+      if (portfolio.thumbnailUrl == null) {
+        return "https://placehold.co/600x400?text=No+Image"
       } else {
         return portfolio.thumbnailUrl
       }
@@ -16,7 +16,7 @@ function Portfolioitem(props) {
 
   return (
     <div className="portfolio__Item" onClick={() => onPortfolioClick(portfolio)}>
-      <div className="title">
+      <div className="portfolio__Title">
         <h4>{portfolio.title}</h4>
       </div>
       <img src={thumImg} alt="" />

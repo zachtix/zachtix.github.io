@@ -26,7 +26,8 @@
       cursor: pointer; }
     .portfolio__pop .portfolio__content .portfolio__images .big__images img {
       object-fit: cover;
-      height: 400px; }
+      max-width: 100%;
+      max-height: 400px; }
     .portfolio__pop .portfolio__content .portfolio__images .slider {
       overflow-x: scroll;
       height: 7.5rem; }

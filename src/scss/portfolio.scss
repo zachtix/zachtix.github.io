@@ -6,3 +6,22 @@
   overflow-y: scroll;
   padding: 0.5rem;
 }
+
+.portfolio {
+  .container {
+    .title {
+      position: relative;
+      h2 {
+        &::after {
+          position: absolute;
+          width: 5rem;
+          height: 0.3rem;
+          background: #149ddd;
+          left: 0;
+          top: 2.5rem;
+          content: "";
+        }
+      }
+    }
+  }
+}
