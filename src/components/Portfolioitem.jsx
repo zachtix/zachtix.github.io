@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import '../css/portfolioitem.css'
 
 function Portfolioitem(props) {
   const { portfolio, onPortfolioClick } = props;
 
+
+  // บัคเมื่อกดเปลี่ยน tag รูป Thumbnail ไม่เปลี่ยนตาม
   const [ thumImg, setThumImg ] = useState(
     () => {
       if (portfolio.thumbnailUrl == null) {
@@ -19,7 +21,7 @@ function Portfolioitem(props) {
       <div className="portfolio__Title">
         <h4>{portfolio.title}</h4>
       </div>
-      <img src={thumImg} alt="" />
+      <img src={portfolio.thumbnailUrl} alt="" />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 const portfolios = [
-  { 
+  {
     title: 'eSport Landing Page', 
     description: '',
     tag: 'web',
@@ -9,6 +9,40 @@ const portfolios = [
     images: [
       'https://lh3.googleusercontent.com/drive-viewer/AITFw-xjLgjmTdwoAOzq2QqP8m6IbVC2DvvWjCarQVwvHB68UBVGzYZU6mG1ANcbzeZjZ684cACH2MFpO0qc7wWDlTCWDazK=s1600',
       'https://lh3.googleusercontent.com/drive-viewer/AITFw-w5Cwvs1NauyuJCDL7EudgwSFyAFzObewAIACmoEsAI_4_ST5aa-1MbDaMgcqr9blh7fLVH4DLFJ3kuM5GOByzdXtXE=s1600'
+    ]
+  },
+  {
+    title: 'Racing Sport Blog', 
+    description: '',
+    tag: 'web',
+    liveSite: 'https://64b3fc602922993cdb0679f9--benevolent-mochi-bc45c5.netlify.app/',
+    repo: 'https://github.com/zachtix/racing_sport_blog',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-zR_E30U4QaNNXON-409SzeEwbM49RTbC-VxX5Gqqg-ZQiaF8ZY-zeayL-qcwXVGf4qA9jonGNFL5v6UcgdVVB-e3HC=s1600', 
+    images: [
+      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zR_E30U4QaNNXON-409SzeEwbM49RTbC-VxX5Gqqg-ZQiaF8ZY-zeayL-qcwXVGf4qA9jonGNFL5v6UcgdVVB-e3HC=s1600',
+      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zQw76hQ2sMkfdh8Wrq6qRv3cCV7jrdLMBDibTh_YlSBWdqmDpQg_CqBZWjfyWsNnksX7wbuesMWAz5Cug9sbDV2Q0Akg=s1600'
+    ]
+  },
+  {
+    title: 'Coffee Landing Page', 
+    description: '',
+    tag: 'web',
+    liveSite: 'https://resplendent-twilight-64e8e7.netlify.app/',
+    repo: 'https://github.com/zachtix/practice-frontend/tree/coffee-landing-page',
+    thumbnailUrl: null, 
+    images: [
+      null
+    ]
+  },
+  {
+    title: 'Pizzaria Landing Page', 
+    description: '',
+    tag: 'web',
+    liveSite: 'https://charming-sherbet-ef1762.netlify.app/',
+    repo: 'https://github.com/zachtix/practice-frontend/tree/pizzaria-landing-page',
+    thumbnailUrl: null, 
+    images: [
+      null
     ]
   },
   { 

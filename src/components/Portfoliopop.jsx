@@ -39,7 +39,7 @@ function Portfoliopop(props) {
   })
 
   return(
-    <div className="portfolio__pop">
+    <div className="portfolio__pop" key={portfolio.id}>
       <div className="portfolio__bg" onClick={onClickClose}></div>
       <div className="portfolio__content rounded w-75 h-75 p-4 ">
         <i className="fa-solid fa-xmark cursor-pointer w-100 text-end" onClick={onClickClose}></i>
