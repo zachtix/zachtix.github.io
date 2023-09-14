@@ -42,7 +42,11 @@ function Portfoliopop(props) {
     <div className="portfolio__pop" key={portfolio.id}>
       <div className="portfolio__bg" onClick={onClickClose}></div>
       <div className="portfolio__content rounded w-75 h-75 p-4 ">
-        <i className="fa-solid fa-xmark cursor-pointer w-100 text-end" onClick={onClickClose}></i>
+        {/* <i className="fa-solid fa-xmark cursor-pointer w-100 text-end bg-danger" onClick={onClickClose}></i> */}
+        <div className="topPortfolioPop d-flex justify-content-between w-100">
+          <h2>{portfolio.title}</h2>
+          <i className="fa-solid fa-xmark cursor-pointer d-flex align-items-center" onClick={onClickClose}></i>
+        </div>
         <div className="main d-flex flex-column flex-sm-row">
           <div className="portfolio__images w-75 me-5">
             <div className="big__images text-center">
@@ -54,8 +58,8 @@ function Portfoliopop(props) {
               ))}
             </div>
           </div>
-          <div className="right w-25">
-            <h2>{portfolio.title}</h2>
+          <div className="right w-25 mt-3">
+            {/* <h2>{portfolio.title}</h2> */}
             <p>{portfolio.description}</p>
             <div className="showBtn d-flex justify-content-around">
               

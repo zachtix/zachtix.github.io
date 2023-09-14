@@ -12,6 +12,17 @@ const portfolios = [
     ]
   },
   {
+    title: 'Web App Check Stock',
+    description: 'เป็นโปรเจคที่ทำขึ้น ขณะทำงานที่เต้นท์รถ เพราะว่าเป็นฝ่ายที่ต้องดูแลสต็อก และเซลล์ต้องเดินเข้ามาถามข้อมูลรถอยู่ตลอด เลยได้คิดโปรเจคนี้ขึ้นมาเพื่อให้เซลล์ดูข้อมูลรถได้จากบนเว็บ Frontend พัฒนาด้วย HTML, JS, Boostrap Backend พัฒนาด้วย Python และใช้ Package Fastapi, openpyxl',
+    tag: 'web',
+    liveSite: 'http://45.91.133.158/demo_stockcar/',
+    repo: null,
+    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wmCS0VMqNg5X5B3tcrAbQtRG425qRowppanrTP1RME1pwaik8Dy6nOx3pqGRitXNIBYyj1le9MJsHEfq__KFSqJ2xfxw=s1600',
+    images: [
+      'https://lh3.googleusercontent.com/drive-viewer/AITFw-wmCS0VMqNg5X5B3tcrAbQtRG425qRowppanrTP1RME1pwaik8Dy6nOx3pqGRitXNIBYyj1le9MJsHEfq__KFSqJ2xfxw=s1600'
+    ]
+  },
+  {
     title: 'Racing Sport Blog', 
     description: '',
     tag: 'web',
@@ -29,9 +40,10 @@ const portfolios = [
     tag: 'web',
     liveSite: 'https://resplendent-twilight-64e8e7.netlify.app/',
     repo: 'https://github.com/zachtix/practice-frontend/tree/coffee-landing-page',
-    thumbnailUrl: null, 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-yzZkcD7fEsfVJifS_1_H9kkLM0iVffoDwx-6U9etBb8OzQqmnNcvZVAF-X8NMIPryNsnyMQ1vbbKLxCGODAX3sEKN4dA=s1600', 
     images: [
-      null
+      'https://lh3.googleusercontent.com/drive-viewer/AITFw-yzZkcD7fEsfVJifS_1_H9kkLM0iVffoDwx-6U9etBb8OzQqmnNcvZVAF-X8NMIPryNsnyMQ1vbbKLxCGODAX3sEKN4dA=s1600',
+      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zUhJgRmD69gvtpDAq8j3h1KWqSVBiDoN9dPsHemWTrKLBk-w3F1-WWuqWVlKPowZ5Uq4BfzTmuHBo71p6ycBnTWnWhfw=s1600'
     ]
   },
   {
@@ -40,9 +52,10 @@ const portfolios = [
     tag: 'web',
     liveSite: 'https://charming-sherbet-ef1762.netlify.app/',
     repo: 'https://github.com/zachtix/practice-frontend/tree/pizzaria-landing-page',
-    thumbnailUrl: null, 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wp7DhoKHNSgu5AB--GKLee6ol5_zUFzcCfH4wy-2JWGSi5UW5IytT7oGT9JKsmy6GYEfh4sxPexVAtpL-v5bwDqMrXcQ=s1600', 
     images: [
-      null
+      'https://lh3.googleusercontent.com/drive-viewer/AITFw-wp7DhoKHNSgu5AB--GKLee6ol5_zUFzcCfH4wy-2JWGSi5UW5IytT7oGT9JKsmy6GYEfh4sxPexVAtpL-v5bwDqMrXcQ=s1600',
+      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zROr9LKBzmE3kb1TTO5Pk_q-dLS0dqbEL2MjIVOWhoQELM1mmRxNdGnRI4IWmdv469RTN9ZU9ssQjIMzdQaeYTbJaA7g=s1600'
     ]
   },
   { 
