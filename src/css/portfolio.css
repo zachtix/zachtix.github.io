@@ -1,18 +1,8 @@
-.app__Grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 1rem;
-  height: 63rem;
-  overflow-y: scroll;
-  padding: 0.5rem; }
+.btn-tags {
+  background-color: #149ddd; }
+  .btn-tags :hover {
+    background-color: #1bdd14 !important; }
 
-.portfolio .container .title {
-  position: relative; }
-  .portfolio .container .title h2::after {
-    position: absolute;
-    width: 5rem;
-    height: 0.3rem;
-    background: #149ddd;
-    left: 0;
-    top: 2.5rem;
-    content: ""; }
+.app__Grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem; }

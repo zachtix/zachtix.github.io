@@ -17,25 +17,31 @@ function Navbar() {
       <nav className="navbar p-3" id="navbar">
         <ul className='list-unstyled'>
           <li className='nav-item mt-3'>
-            <a href="" className='nav-link link-secondary active'>
+            <a href="#home" className='nav-link link-secondary active'>
               <i className="fa-solid fa-house me-2"></i>
               <span>Home</span>
             </a>
           </li>
           <li className='nav-item mt-3'>
-            <a href="" className='nav-link link-secondary'>
+            <a href="#about" className='nav-link link-secondary'>
               <i className="fa-solid fa-user me-2"></i>
               <span>About</span>
             </a>
           </li>
           <li className='nav-item mt-3'>
-            <a href="" className='nav-link link-secondary'>
+            <a href="#skills" className='nav-link link-secondary'>
+              <i class="fa-solid fa-screwdriver-wrench me-2"></i>
+              <span>Skills</span>
+            </a>
+          </li>
+          <li className='nav-item mt-3'>
+            <a href="#history" className='nav-link link-secondary'>
             <i className="fa-solid fa-file me-2"></i>
               <span>History</span>
             </a>
           </li>
           <li className='nav-item mt-3'>
-            <a href="" className='nav-link link-secondary'>
+            <a href="#portfolio" className='nav-link link-secondary'>
               {/* <i className="fa-solid fa-folder me-2"></i> */}
               <i className="fa-solid fa-briefcase me-2"></i>
               <span>Portfolio</span>

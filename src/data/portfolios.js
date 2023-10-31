@@ -5,10 +5,10 @@ const portfolios = [
     tag: 'web',
     liveSite: 'https://extraordinary-snickerdoodle-e9179a.netlify.app/',
     repo: 'https://github.com/zachtix/practice-frontend/tree/esport-landing-page',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-xjLgjmTdwoAOzq2QqP8m6IbVC2DvvWjCarQVwvHB68UBVGzYZU6mG1ANcbzeZjZ684cACH2MFpO0qc7wWDlTCWDazK=s1600', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1zi2zUj4p1Y_-7FzdrlMFF-Qc8ivZQHZW', 
     images: [
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-xjLgjmTdwoAOzq2QqP8m6IbVC2DvvWjCarQVwvHB68UBVGzYZU6mG1ANcbzeZjZ684cACH2MFpO0qc7wWDlTCWDazK=s1600',
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-w5Cwvs1NauyuJCDL7EudgwSFyAFzObewAIACmoEsAI_4_ST5aa-1MbDaMgcqr9blh7fLVH4DLFJ3kuM5GOByzdXtXE=s1600'
+      'https://lh3.googleusercontent.com/d/1zi2zUj4p1Y_-7FzdrlMFF-Qc8ivZQHZW',
+      'https://lh3.googleusercontent.com/d/16tgu_2tPsrFCCDdkTgclCeUOSI1ndlX5'
     ]
   },
   {
@@ -17,9 +17,9 @@ const portfolios = [
     tag: 'web',
     liveSite: 'http://45.91.133.158/demo_stockcar/',
     repo: null,
-    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wmCS0VMqNg5X5B3tcrAbQtRG425qRowppanrTP1RME1pwaik8Dy6nOx3pqGRitXNIBYyj1le9MJsHEfq__KFSqJ2xfxw=s1600',
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1t75errFUg8FPAPM-U7ZK2QjYGAbJWSt_',
     images: [
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-wmCS0VMqNg5X5B3tcrAbQtRG425qRowppanrTP1RME1pwaik8Dy6nOx3pqGRitXNIBYyj1le9MJsHEfq__KFSqJ2xfxw=s1600'
+      'https://lh3.googleusercontent.com/d/1t75errFUg8FPAPM-U7ZK2QjYGAbJWSt_'
     ]
   },
   {
@@ -28,10 +28,10 @@ const portfolios = [
     tag: 'web',
     liveSite: 'https://64b3fc602922993cdb0679f9--benevolent-mochi-bc45c5.netlify.app/',
     repo: 'https://github.com/zachtix/racing_sport_blog',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-zR_E30U4QaNNXON-409SzeEwbM49RTbC-VxX5Gqqg-ZQiaF8ZY-zeayL-qcwXVGf4qA9jonGNFL5v6UcgdVVB-e3HC=s1600', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1AcnOfJ8m3Bl19-YEkqxJwa0U8zy8Fs8d', 
     images: [
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zR_E30U4QaNNXON-409SzeEwbM49RTbC-VxX5Gqqg-ZQiaF8ZY-zeayL-qcwXVGf4qA9jonGNFL5v6UcgdVVB-e3HC=s1600',
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zQw76hQ2sMkfdh8Wrq6qRv3cCV7jrdLMBDibTh_YlSBWdqmDpQg_CqBZWjfyWsNnksX7wbuesMWAz5Cug9sbDV2Q0Akg=s1600'
+      'https://lh3.googleusercontent.com/d/1AcnOfJ8m3Bl19-YEkqxJwa0U8zy8Fs8d',
+      'https://lh3.googleusercontent.com/d/12unNvzu1gvdE6ir553X-wjNQbVY8jSv_'
     ]
   },
   {
@@ -40,10 +40,10 @@ const portfolios = [
     tag: 'web',
     liveSite: 'https://resplendent-twilight-64e8e7.netlify.app/',
     repo: 'https://github.com/zachtix/practice-frontend/tree/coffee-landing-page',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-yzZkcD7fEsfVJifS_1_H9kkLM0iVffoDwx-6U9etBb8OzQqmnNcvZVAF-X8NMIPryNsnyMQ1vbbKLxCGODAX3sEKN4dA=s1600', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1FSTBCCfGM0EKLe2PGvoFP8MHd9m-Iiyi', 
     images: [
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-yzZkcD7fEsfVJifS_1_H9kkLM0iVffoDwx-6U9etBb8OzQqmnNcvZVAF-X8NMIPryNsnyMQ1vbbKLxCGODAX3sEKN4dA=s1600',
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zUhJgRmD69gvtpDAq8j3h1KWqSVBiDoN9dPsHemWTrKLBk-w3F1-WWuqWVlKPowZ5Uq4BfzTmuHBo71p6ycBnTWnWhfw=s1600'
+      'https://lh3.googleusercontent.com/d/1FSTBCCfGM0EKLe2PGvoFP8MHd9m-Iiyi',
+      'https://lh3.googleusercontent.com/d/1CXl6fr0GCe5u1jUPBvnnFNk0i7-Ak5ix'
     ]
   },
   {
@@ -52,10 +52,10 @@ const portfolios = [
     tag: 'web',
     liveSite: 'https://charming-sherbet-ef1762.netlify.app/',
     repo: 'https://github.com/zachtix/practice-frontend/tree/pizzaria-landing-page',
-    thumbnailUrl: 'https://lh3.googleusercontent.com/drive-viewer/AITFw-wp7DhoKHNSgu5AB--GKLee6ol5_zUFzcCfH4wy-2JWGSi5UW5IytT7oGT9JKsmy6GYEfh4sxPexVAtpL-v5bwDqMrXcQ=s1600', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/141O1OZpHqVjz7h1ENHy03jt0vlkNX24D', 
     images: [
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-wp7DhoKHNSgu5AB--GKLee6ol5_zUFzcCfH4wy-2JWGSi5UW5IytT7oGT9JKsmy6GYEfh4sxPexVAtpL-v5bwDqMrXcQ=s1600',
-      'https://lh3.googleusercontent.com/drive-viewer/AITFw-zROr9LKBzmE3kb1TTO5Pk_q-dLS0dqbEL2MjIVOWhoQELM1mmRxNdGnRI4IWmdv469RTN9ZU9ssQjIMzdQaeYTbJaA7g=s1600'
+      'https://lh3.googleusercontent.com/d/141O1OZpHqVjz7h1ENHy03jt0vlkNX24D',
+      'https://lh3.googleusercontent.com/d/1_AN0KQouASTrzUN78HEYHggnF4MHq5HC'
     ]
   },
   { 
@@ -64,20 +64,20 @@ const portfolios = [
     tag: 'game',
     liveSite: null,
     repo: 'https://github.com/zachtix/bingo-project',
-    thumbnailUrl: 'https://zachtix.github.io/img/bingo.jpg', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1qnYp32CRzqpnn0jq9D8bLHml7qqqCOEf', 
     images: [
-      'https://zachtix.github.io/img/bingo.jpg'
+      'https://lh3.googleusercontent.com/d/1qnYp32CRzqpnn0jq9D8bLHml7qqqCOEf'
     ]
   },
   { 
-    title: 'โปรแกรมช่างคอมในตำนาน', 
+    title: 'โปรแกรมช่างคอม', 
     description: 'เป็นโปรแกรมที่เพิ่มความสะดวกในการลงโปรแกรมพื้นฐาน เมื่อลงวินโดว์ใหม่ เป็นการใช้ Package จาก Chocolatey Community',
     tag: 'tool',
     liveSite: null,
     repo: 'https://github.com/zachtix/chang_khom_nai_tamnan',
-    thumbnailUrl: 'https://zachtix.github.io/img/changkhom.JPG', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/15Ra1LNAeD8w4GI3dxBzxM-GGAMbXTmCK', 
     images: [
-      'https://zachtix.github.io/img/changkhom.JPG'
+      'https://lh3.googleusercontent.com/d/15Ra1LNAeD8w4GI3dxBzxM-GGAMbXTmCK'
     ]
   },
   { 
@@ -86,9 +86,9 @@ const portfolios = [
     tag: 'game',
     liveSite: null,
     repo: 'https://github.com/zachtix/botfishing-playtogether-v1',
-    thumbnailUrl: 'https://zachtix.github.io/img/botfishing.JPG', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1NQWuOmWSIGf5dnxNVSXE_3YL1lFESWs6', 
     images: [
-      'https://zachtix.github.io/img/botfishing.JPG'
+      'https://lh3.googleusercontent.com/d/1NQWuOmWSIGf5dnxNVSXE_3YL1lFESWs6'
     ]
   },
   { 
@@ -107,10 +107,203 @@ const portfolios = [
     tag: 'game',
     liveSite: null,
     repo: 'https://github.com/zachtix/pokdeng-project_game-python',
-    thumbnailUrl: 'https://zachtix.github.io/img/pokdeng_ui_full.png', 
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1EATGM6ZfO6EvqQti2axp-YEK42qX0YIF', 
     images: [
-      'https://zachtix.github.io/img/pokdeng_cli.jpg',
-      'https://zachtix.github.io/img/pokdeng_ui_full.png'
+      'https://lh3.googleusercontent.com/d/1QK5d2IWoiDop3h0dj626Ddi2ExvCEJMn',
+      'https://lh3.googleusercontent.com/d/1EATGM6ZfO6EvqQti2axp-YEK42qX0YIF'
+    ]
+  },
+  { 
+    title: 'Graphic', 
+    description: '',
+    tag: 'graphic',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1bCydFEfNokxR8NLQXCUXAvgY4ngI7JlN', 
+    images: [
+      'https://lh3.googleusercontent.com/d/1bCydFEfNokxR8NLQXCUXAvgY4ngI7JlN',
+      'https://lh3.googleusercontent.com/d/1jULr2PyS_9-fTlKONP8GmSMbG8WEbPAg',
+      'https://lh3.googleusercontent.com/d/111EFYnyjJ1meYmnA0vZGh5CiCaLSaAhK',
+      'https://lh3.googleusercontent.com/d/1xqhn268RSqXNSnTqpcOQ_APForqDG5Il',
+      'https://lh3.googleusercontent.com/d/18CLMmoAOSHeUsJNnLuG7mVBV5djZ-TW4',
+      'https://lh3.googleusercontent.com/d/17-nDmZsjqxuQ20mA5f68KVIqGi7pOeLE',
+      'https://lh3.googleusercontent.com/d/105uq1EgJZjF1Luv7HlWkRSLm_oPmqjwf',
+      'https://lh3.googleusercontent.com/d/1RjkET-EzDffdARS7A0x33NujN4VCQmR6',
+      'https://lh3.googleusercontent.com/d/195dgznO2i5ngAMjPzwAxF6eQMVJB_YZC',
+      'https://lh3.googleusercontent.com/d/1bEWfUr0Fe8GS-2jedQyLu3VKyNq83RQz',
+      'https://lh3.googleusercontent.com/d/1cWfiWML4fQWZWHcZzL-SvWwE9OpVrIj6',
+      'https://lh3.googleusercontent.com/d/18Dq3v-FbTkTKZRft43IxaN9mUjiUHYE6',
+      'https://lh3.googleusercontent.com/d/1OQX-zAnPGrL9lMfbbMYZD47uA_WWBfMG',
+      'https://lh3.googleusercontent.com/d/1HlIBlTEabbizqcxs8jz3U1P4edVFrQ47',
+      'https://lh3.googleusercontent.com/d/15fqC0Ymvus7C5G3w59Rw4o_6GNDj49pK'
+    ]
+  },
+  { 
+    title: 'Graphic', 
+    description: '',
+    tag: 'graphic',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1SwH6j97EHG1aJZn8HVswEHUfrKkhlCfP', 
+    images: [
+      'https://lh3.googleusercontent.com/d/1CxP-YklPMJ4Z_XruBHsTq02Ld1vR4rjc',
+      'https://lh3.googleusercontent.com/d/14wSDHzZ_y5AhaNybc-VVeVZCUTA57rR1'
+    ]
+  },
+  { 
+    title: '[Thesis] Us', 
+    description: 'Position : Editor / Retouch',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'b_zUM3uxs5M'
+    ]
+  },
+  { 
+    title: 'Forever', 
+    description: 'Position : Editor',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'PRI0nkQQubc'
+    ]
+  },
+  { 
+    title: 'Long Take', 
+    description: 'Position : ',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      '_3da7dQe6aM'
+    ]
+  },
+  { 
+    title: 'Copy scene i fine thank you love you', 
+    description: 'Position : Editor',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'TU2xl38MUnM'
+    ]
+  },
+  { 
+    title: 'Young', 
+    description: 'Position : Editor / Retouch',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'Uqy4Ctw6HCk'
+    ]
+  },
+  { 
+    title: 'Cover Dance itzy', 
+    description: '',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'gh_r3teIEgo'
+    ]
+  },
+  { 
+    title: 'Retouch', 
+    description: '',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'TRAGEoj6cBA'
+    ]
+  },
+  { 
+    title: 'มนต์รักศาลเจ้า', 
+    description: 'Position : VFX',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'Zs7ZMcaQcog'
+    ]
+  },
+  { 
+    title: 'Motion Logo', 
+    description: '',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'xq11jUmCLRg'
+    ]
+  },
+  { 
+    title: 'LIL TAD – คิดเหมือนกัน [ME & YOU]', 
+    description: '',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'MvxJ3-b5uhA'
+    ]
+  },
+  { 
+    title: 'WTF PlanC', 
+    description: 'Position : Editor / VFX',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'zIUSOxSW1KM'
+    ]
+  },
+  { 
+    title: 'รักนะน่าโง่ (Parody รักนะเป็ดโง่)', 
+    description: 'Position : Camera man / Editor',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'uf7iDIjEzKk'
+    ]
+  },
+  { 
+    title: 'TVC Honey', 
+    description: '',
+    tag: 'video',
+    typeContent: 'video',
+    liveSite: null,
+    repo: null,
+    thumbnailUrl: null, 
+    images: [
+      'wFP-kKMrBa8'
     ]
   },
 ];

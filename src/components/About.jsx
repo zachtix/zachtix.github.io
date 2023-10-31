@@ -3,15 +3,15 @@ import imgPerson from '../assets/images/imgPerson.jpg'
 
 function About () {
   return (
-    <section className="about" id="about">
+    <section className="about border-bottom mx-5 pb-5" id="about">
       <div className="container">
         <div className="title">
           <h2>About</h2>
           {/* <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati animi quas, dolores soluta sunt at quibusdam ipsam impedit in adipisci quam eius eligendi ut reprehenderit autem corrupti nemo eum provident.</p> */}
         </div>
-        <div className="detail d-flex">
+        <div className="detail d-flex mt-5">
           <div className="w-25 me-3">
-            <img src={imgPerson} alt="Images Avatar" className="w-100 rounded"/>
+            <img src={imgPerson} alt="Images Avatar" className="w-100"/>
           </div>
           <div className="container">
             <h3>Atthawut Smith</h3>

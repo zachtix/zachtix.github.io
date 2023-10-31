@@ -44,13 +44,13 @@
         height: 7.5rem;
         img {
           object-fit: cover;
-          width: 10rem;
-          height: 6rem;
+          max-width: 10 rem;
+          height: 100%;
           // aspect-ratio: 16/9;
-          border: 1px solid rgba(0, 0, 0, 0.3);
+          //border: 1px solid rgba(0, 0, 0, 0.3);
           // height: 9rem;
           // opacity: 0.8;
-          box-shadow: 2px 2px 5px #000;
+          //box-shadow: 2px 2px 5px #000;
           &:hover {
             opacity: 0.8;
             cursor: pointer;

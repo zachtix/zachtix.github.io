@@ -9,6 +9,42 @@ main {
   margin-left: 300px;
 }
 
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #149ddd;
+}
+
 @media (max-width: 480px) {
   main {margin-left: 0;}
+}
+
+.about, .skills, .history, .portfolio {
+  .container {
+    .title {
+      position: relative;
+      // border: 1px solid red;
+      h2 {
+        &::before {
+          position: absolute;
+          width: 5rem;
+          height: 0.2rem;
+          top: 2.5rem;
+          background-color: #149ddd;
+          content: "";
+        }
+        &::after {
+          position: absolute;
+          width: 0;
+          height: 0.2rem;
+          left: 5rem;
+          top: 2.5rem;
+          border-bottom: 0.2rem solid #149ddd;
+          border-right: 0.2rem solid transparent;
+          content: "";
+        }
+      }
+    }
+  }
 }

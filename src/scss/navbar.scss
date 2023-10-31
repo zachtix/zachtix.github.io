@@ -18,7 +18,7 @@ header {
           &.active {
             color: #fff;
             i {
-              color: rgb(13,110,253);
+              color: #149ddd;
             }
           }
         }
@@ -26,8 +26,8 @@ header {
     }
   }
 }
-@media (max-width: 480px) {
-  header {
-    display: none;
-  }
-}
+// @media (max-width: 480px) {
+//   header {
+//     display: none;
+//   }
+// }

@@ -11,8 +11,4 @@ header {
   header nav ul li a.active {
     color: #fff; }
     header nav ul li a.active i {
-      color: #0d6efd; }
-
-@media (max-width: 480px) {
-  header {
-    display: none; } }
+      color: #149ddd; }
