@@ -1,5 +1,16 @@
 const portfolios = [
   {
+    title: 'Web App Check Stock',
+    description: 'เป็นโปรเจคที่ทำขึ้น ขณะทำงานที่เต้นท์รถ เพราะว่าเป็นฝ่ายที่ต้องดูแลสต็อก และเซลล์ต้องเดินเข้ามาถามข้อมูลรถอยู่ตลอด เลยได้คิดโปรเจคนี้ขึ้นมาเพื่อให้เซลล์ดูข้อมูลรถได้จากบนเว็บ Frontend พัฒนาด้วย HTML, JS, Boostrap Backend พัฒนาด้วย Python และใช้ Package Fastapi, openpyxl',
+    tag: 'web',
+    liveSite: 'http://45.91.133.158:8088/',
+    repo: null,
+    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1t75errFUg8FPAPM-U7ZK2QjYGAbJWSt_',
+    images: [
+      'https://lh3.googleusercontent.com/d/1t75errFUg8FPAPM-U7ZK2QjYGAbJWSt_'
+    ]
+  },
+  {
     title: 'eSport Landing Page', 
     description: '',
     tag: 'web',
@@ -12,21 +23,10 @@ const portfolios = [
     ]
   },
   {
-    title: 'Web App Check Stock',
-    description: 'เป็นโปรเจคที่ทำขึ้น ขณะทำงานที่เต้นท์รถ เพราะว่าเป็นฝ่ายที่ต้องดูแลสต็อก และเซลล์ต้องเดินเข้ามาถามข้อมูลรถอยู่ตลอด เลยได้คิดโปรเจคนี้ขึ้นมาเพื่อให้เซลล์ดูข้อมูลรถได้จากบนเว็บ Frontend พัฒนาด้วย HTML, JS, Boostrap Backend พัฒนาด้วย Python และใช้ Package Fastapi, openpyxl',
-    tag: 'web',
-    liveSite: 'http://45.91.133.158/demo_stockcar/',
-    repo: null,
-    thumbnailUrl: 'https://lh3.googleusercontent.com/d/1t75errFUg8FPAPM-U7ZK2QjYGAbJWSt_',
-    images: [
-      'https://lh3.googleusercontent.com/d/1t75errFUg8FPAPM-U7ZK2QjYGAbJWSt_'
-    ]
-  },
-  {
     title: 'Racing Sport Blog', 
     description: '',
     tag: 'web',
-    liveSite: 'https://64b3fc602922993cdb0679f9--benevolent-mochi-bc45c5.netlify.app/',
+    liveSite: 'https://benevolent-mochi-bc45c5.netlify.app/',
     repo: 'https://github.com/zachtix/racing_sport_blog',
     thumbnailUrl: 'https://lh3.googleusercontent.com/d/1AcnOfJ8m3Bl19-YEkqxJwa0U8zy8Fs8d', 
     images: [
