@@ -13,9 +13,15 @@ const skills = [
   },
   {
     skill : 'C#',
-    level : 'Learning',
+    level : 'Entry-level',
     iconName : 'iconCS',
-    description : 'กำลังเริ่มศึกษา'
+    description : 'มีความรู้ขั้นพื้นฐาน และสามารถทำโปรเจคได้'
+  },
+  {
+    skill : 'PHP',
+    level : 'Entry-level',
+    iconName : 'iconPHP',
+    description : 'มีความรู้ขั้นพื้นฐาน และสามารถทำโปรเจคได้'
   },
   {
     skill : 'HTML',

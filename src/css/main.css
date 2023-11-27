@@ -3,9 +3,13 @@
   margin: 0;
   transition: 0.15s; }
 
+body {
+  width: 100%;
+  margin: 0 auto; }
+
 main {
   background-color: white;
-  margin-left: 300px; }
+  margin-left: 200px; }
 
 .btn-back-to-top {
   position: fixed;
@@ -13,20 +17,25 @@ main {
   right: 20px;
   background-color: #149ddd; }
 
+@media (max-width: 900px) {
+  main {
+    margin-left: 150px;
+    width: 100%; } }
+
 @media (max-width: 480px) {
   main {
     margin-left: 0; } }
 
-.about .container .title, .skills .container .title, .history .container .title, .portfolio .container .title {
+.about .container .title, .skills .container .title, .history .container .title, .project .container .title {
   position: relative; }
-  .about .container .title h2::before, .skills .container .title h2::before, .history .container .title h2::before, .portfolio .container .title h2::before {
+  .about .container .title h2::before, .skills .container .title h2::before, .history .container .title h2::before, .project .container .title h2::before {
     position: absolute;
     width: 5rem;
     height: 0.2rem;
     top: 2.5rem;
     background-color: #149ddd;
     content: ""; }
-  .about .container .title h2::after, .skills .container .title h2::after, .history .container .title h2::after, .portfolio .container .title h2::after {
+  .about .container .title h2::after, .skills .container .title h2::after, .history .container .title h2::after, .project .container .title h2::after {
     position: absolute;
     width: 0;
     height: 0.2rem;

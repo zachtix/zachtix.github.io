@@ -1,7 +1,7 @@
 header {
   position: fixed;
   background-color: #040b14;
-  width: 300px;
+  width: 200px;
   height: 100vh; }
   header .profile img {
     width: 120px;
@@ -12,3 +12,7 @@ header {
     color: #fff; }
     header nav ul li a.active i {
       color: #149ddd; }
+
+@media (max-width: 900px) {
+  header {
+    width: 150px; } }

@@ -1,4 +1,4 @@
-.portfolio__Item {
+.project__Item {
   position: relative;
   // border: 1px solid red;
   width: 20rem;
@@ -12,7 +12,7 @@
     width: 100%;
     height: 100%;
   }
-  .portfolio__Title {
+  .project__Title {
     position: absolute;
     bottom: 0;
     background-color: rgba(128, 128, 128, 0.8);

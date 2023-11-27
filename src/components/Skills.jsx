@@ -1,8 +1,11 @@
+import { useState, useEffect } from "react"
+import axios, { Axios } from 'axios';
+// import dataSkills from '../data/dataSkills'
 import '../css/skills.css'
-import dataSkills from '../data/dataSkills'
 import iconPython from '../assets/icons/icon-python_48x48.png'
 import iconJS from '../assets/icons/icon-javascript_48x48.png'
 import iconCS from '../assets/icons/icon-csharp_48x48.png'
+import iconPHP from '../assets/icons/icons8-php_48x48.png'
 import iconCSS from '../assets/icons/icon-css_48x48.png'
 import iconBS from '../assets/icons/icon-bs_48x48.png'
 import iconDocker from '../assets/icons/icon-docker_48x48.png'
@@ -16,10 +19,24 @@ import iconPremierePro from '../assets/icons/icon-pr_48x48.png'
 import iconAfterEffect from '../assets/icons/icon-ae_48x48.png'
 
 function Skills() {
+  const [ skills, setSkills ] = useState([]);
+  useEffect(() => {
+    axios.get('http://45.91.133.158:8000/skills')
+    .then((res) => {
+      setSkills(res.data);
+    });
+    
+    // const urlParams = new URLSearchParams(window.location.origin);
+    // if (urlParams !== 'http://atthawut.com'){
+    //   window.location.replace("http://www.google.com");
+    // }
+  }, []);
+
   const imgIcon = {
     iconPython,
     iconJS,
     iconCS,
+    iconPHP,
     iconCSS,
     iconBS,
     iconDocker,
@@ -39,7 +56,7 @@ function Skills() {
           <h2>Skills</h2>
         </div>
         <div className="skillContents mt-5">
-        {dataSkills.map(i => {
+        {skills.map(i => {
           return (
             <div className={'skill-'+i.skill+' d-flex border-bottom m-3'}>
               <div className="first col-1 text-center">

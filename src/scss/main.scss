@@ -4,9 +4,16 @@
   transition: 0.15s;
 }
 
+body {
+  width: 100%;
+  margin: 0 auto;
+  // border: 1px solid aqua;
+}
+
 main {
   background-color: white;
-  margin-left: 300px;
+  margin-left: 200px;
+  // border: 1px solid red;
 }
 
 .btn-back-to-top {
@@ -16,11 +23,15 @@ main {
   background-color: #149ddd;
 }
 
+@media (max-width: 900px) {
+  main {margin-left: 150px;width: 100%;}
+}
+
 @media (max-width: 480px) {
   main {margin-left: 0;}
 }
 
-.about, .skills, .history, .portfolio {
+.about, .skills, .history, .project {
   .container {
     .title {
       position: relative;

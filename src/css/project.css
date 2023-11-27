@@ -1,0 +1,8 @@
+.btn-tags {
+  background-color: #149ddd; }
+  .btn-tags :hover {
+    background-color: #1bdd14 !important; }
+
+.app__Grid {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem; }

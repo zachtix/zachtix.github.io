@@ -3,8 +3,8 @@ import imgPerson from '../assets/images/imgPerson.jpg'
 
 function Navbar() {
   return(
-    <header id="header">
-      <div className="d-flex flex-column">
+    <header id="header" className='d-none d-md-block'>
+      {/* <div className="d-flex flex-column">
         <div className="profile mt-5 mx-auto">
           <img src={imgPerson} className="img-fluid img__Person rounded-circle" alt="Images Person" />
         </div>
@@ -13,7 +13,7 @@ function Navbar() {
             Atthawut Smith
           </a>
         </h1>
-      </div>
+      </div> */}
       <nav className="navbar p-3" id="navbar">
         <ul className='list-unstyled'>
           <li className='nav-item mt-3'>

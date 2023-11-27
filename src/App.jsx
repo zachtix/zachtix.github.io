@@ -5,11 +5,10 @@ import './css/main.css'
 import Navbar from "./components/Navbar"
 import About from './components/About'
 import History from './components/History'
-import Portfolio from './components/Portfolio'
+import Projects from './components/Project'
 import Skills from './components/Skills'
 
 function App() {
-
   // handle button back to top
   const [showTopBtn, setShowTopBtn] = useState(false);
   useEffect(() => {
@@ -34,7 +33,7 @@ function App() {
         <About />
         <Skills />
         <History />
-        <Portfolio />
+        <Projects />
       </main>
       {showTopBtn &&(
         <button
