@@ -25,11 +25,6 @@ function Skills() {
     .then((res) => {
       setSkills(res.data);
     });
-    
-    // const urlParams = new URLSearchParams(window.location.origin);
-    // if (urlParams !== 'http://atthawut.com'){
-    //   window.location.replace("http://www.google.com");
-    // }
   }, []);
 
   const imgIcon = {

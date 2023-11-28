@@ -1,7 +1,17 @@
-import '../css/about.css'
-import imgPerson from '../assets/images/imgPerson.jpg'
+import '../css/about.css';
+import imgPerson from '../assets/images/imgPerson.jpg';
+import { useState, useEffect } from "react";
+import axios, { Axios } from 'axios';
 
 function About () {
+  const [ personalData, setPersonalData ] = useState([]);
+  const { name, birthday, age, location, phone, email } = personalData;
+  useEffect(() => {
+    axios.get('http://45.91.133.158:8000/personaldata')
+    .then((res) => {
+      setPersonalData(res.data[0]);
+    });
+  }, []);
   return (
     <section className="about border-bottom mx-5 pb-5" id="about">
       <div className="container">
@@ -14,7 +24,7 @@ function About () {
             <img src={imgPerson} alt="Images Avatar" className="w-100"/>
           </div>
           <div className="container">
-            <h3>Atthawut Smith</h3>
+            <h3>{name}</h3>
             {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident esse aliquam ad optio quidem eveniet consequatur, tempore cupiditate soluta et.</p> */}
             <div className="d-flex">
               <div className="w-50">
@@ -22,17 +32,17 @@ function About () {
                   <li>
                     <i className="fa-solid fa-chevron-right"></i>
                     <strong className='ms-2'>Birthday :</strong>
-                    <span className='ms-2'>2 Oct 1997</span>
+                    <span className='ms-2'>{birthday}</span>
                   </li>
                   <li>
                     <i className="fa-solid fa-chevron-right"></i>
                     <strong className='ms-2'>Age :</strong>
-                    <span className='ms-2'>25</span>
+                    <span className='ms-2'>{age}</span>
                   </li>
                   <li>
                     <i className="fa-solid fa-chevron-right"></i>
                     <strong className='ms-2'>Location :</strong>
-                    <span className='ms-2'>Bangkae, Bangkok</span>
+                    <span className='ms-2'>{location}</span>
                   </li>
                 </ul>
               </div>
@@ -41,12 +51,12 @@ function About () {
                   <li>
                     <i className="fa-solid fa-chevron-right"></i>
                     <strong className='ms-2'>Phone :</strong>
-                    <span className='ms-2'>(+66)90-041-0409</span>
+                    <span className='ms-2'>{phone}</span>
                   </li>
                   <li>
                     <i className="fa-solid fa-chevron-right"></i>
                     <strong className='ms-2'>E-mail :</strong>
-                    <span className='ms-2'>bleach_uekiza99@hotmail.com</span>
+                    <span className='ms-2'>{email}</span>
                   </li>
                 </ul>
               </div>
