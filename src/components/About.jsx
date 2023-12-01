@@ -7,10 +7,28 @@ function About () {
   const [ personalData, setPersonalData ] = useState([]);
   const { name, birthday, age, location, phone, email } = personalData;
   useEffect(() => {
+    console.log('fx');
     axios.get('http://45.91.133.158:8000/personaldata')
     .then((res) => {
       setPersonalData(res.data[0]);
     });
+    if (localStorage.getItem('owner') !== 'true'){
+      axios.get('https://api.ipify.org?format=json')
+      .then((resIP)=>{
+        axios.post('http://45.91.133.158:8000/access', {
+          'ip':resIP.data.ip
+        })
+        .then((res) => {
+          console.log(res);
+        })
+        .catch((err) => {
+          console.log(err);
+        })
+      })
+      .catch((err) => {
+        console.log(err);
+      })
+    }
   }, []);
   return (
     <section className="about border-bottom mx-5 pb-5" id="about">
